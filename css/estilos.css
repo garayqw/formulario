@@ -1,0 +1,17 @@
+.panel1{
+    height: 100px;
+}
+h3{
+    color: white;
+    line-height: 100px;
+    padding-top: 30px;
+}
+.panel2{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 20px;
+  color: #fff;
+  background-color: #f00;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

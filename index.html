@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado de cuenta</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="https://kit.fontawesome.com/3f63022646.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <img src="img/blackfriday.jpg" width="100%" height="100%" alt="descuentos FDS">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color:brown">
+        <div class="row">
+            <div class="col-lg-12 panel1">
+              <center><h3 class="animate__animated animate__flash infinite infinite">Haz tu pedido</h3></center>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <form method="post">
+            <div class="well">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="letters">Nombre completo</label>
+                    <input type="text" id="letters" name="letters" required pattern="[a-zA-Z]*" class="form-control">
+                    <div class="form-group">
+                        <label for="letters">Apellido completo</label>
+                        <input type="text" id="letters" name="letters" required pattern="[a-zA-Z]*" class="form-control">
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label for="required">Dirección de domicilio</label>
+                    <input type="text" id="required" name="required" required class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="required">Codigo postal</label>
+                    <input type="text" id="required" name="required" required class="form-control">
+                </div>
+
+
+
+            </div>
+<br></br>
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="number">Cantidad</label>
+                    <input type="number" id="number" name="number" required class="form-control">
+                </div>
+                <br></br>
+                <p>Colores</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                      Negro
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                      Rojo 
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                      Blanco
+                    </label>
+                  </div>
+                  <br></br>
+                  <p>Tallas</p>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">37</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">38</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                    <label class="form-check-label" for="inlineCheckbox3">39</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                    <label class="form-check-label" for="inlineCheckbox3">40</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                    <label class="form-check-label" for="inlineCheckbox3">41</label>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="inputState">Tu método de pago</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Tarjeta de crédito o débito</option>
+                      <option selected>Visa</option>
+                      <option selected>Mastercard</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electronico</label>
+                    <input type="email" id="email" name="email" required class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="required">Número de tarjeta de crédito o débito</label>
+                    <input type="text" id="required" name="required" required class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="inputState">Mes de Caducidad</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Seleccionar...</option>
+                      <option>Enero</option>
+                      <option>Febrero</option>
+                      <option>Marzo</option>
+                      <option>Abril</option>
+                      <option>Mayo</option>
+                      <option>Junio</option>
+                      <option>Julio</option>
+                      <option>Agosto</option>
+                      <option>Septiembre</option>
+                      <option>Octubre</option>
+                      <option>Diciembre</option>
+                    </select>
+                  </div>
+
+                <div class="form-group">
+                    <label for="inputState">Ciudad</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Seleccionar...</option>
+                      <option>Bogotá</option>
+                      <option>Medellin</option>
+                      <option>Cali</option>
+                      <option>Barraquilla</option>
+                      <option>Villavicencio</option>
+                      <option>....</option>
+                
+                    </select>
+                  </div>
+               
+            </div>
+        </div>
+        <br></br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        <center><button type="submit" class="btn btn-danger btn-lg btn-block">
+                            Realizar pago
+                        </button><center>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+     <h4>Contactenos</h4>
+     <form method="post">
+      <div class="well">
+          <div class="form-group">
+                <label for="letters">Digite su nombre:</label>
+                <input type="text" id="letters" name="letters" required pattern="[a-zA-Z]*" class="form-control" placeholder="Nombres y Apellidos">
+          </div>
+          <div class="form-group">
+            <label for="letters">Asunto:</label>
+            <input type="text" id="letters" name="letters" required pattern="[a-zA-Z]*" class="form-control" placeholder="Tema a resolver">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Example textarea:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </form>
+      </div>
+      <div class="form-group">
+        <center><button type="submit" class="btn btn-danger" >
+           Enviar mensaje
+        </button></center>
+    </div>
+
+</form> 
+    </div>
+    <div class="col-md-6">
+     <iframe width="600" height="400" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Calle56ABISSURNUM84D06%2C%20Bogot%C3%A1%2C%20Cundinamarca+(Casita%20de%20Cake)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="http://www.googlemapsgenerator.com/es/">gmapgen es</a> & <a href="https://buytiktokfollowers.embedgooglemaps.com/">buy tiktok followers</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
+    </div>
+  </div>
+</div>
+<div class="contianer">
+  <div class="row">
+    <div class="col-sm-4">
+      <center><span style="font-size: 3em; color: #0F6EAD;"><a href="https://es-la.facebook.com/login/ "><i class="fab fa-facebook"></i></a></span></center>
+    </div>
+    <div class="col-sm-4">
+<center><span style="font-size: 3em; color: #E53AC1;"><a href="https://www.instagram.com/" style=" color: #E53AC1;"><i class="fab fa-instagram"></i></a></span></center>
+    </div>
+    <div class="col-sm-4">
+      <center><span style="font-size: 3em; color: #f00;"><a href="https://www.youtube.com/" style=" color: #f00;"><i class="fab fa-youtube"></i></a></span></center>
+    </div>
+  </div>
+</div>
+</body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12 panel2">
+      <p>Todos los derechos reservados &copy; 2020</p>
+    </div>
+  </div>
+</div>
+</html>
